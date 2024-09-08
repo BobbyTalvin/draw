@@ -1,0 +1,230 @@
+<mxfile host="app.diagrams.net" modified="2024-01-30T02:01:32.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="BrdW8vgLs3MASnJxrZAJ" version="23.0.2" type="device">
+  <diagram name="Page-1" id="X5IabdFobI3C0__GfFT5">
+    <mxGraphModel dx="1914" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-1" target="hRTv_cULqBs9AqUj1PbR-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-1" value="dapp_protocol (init process)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hRTv_cULqBs9AqUj1PbR-3" target="hRTv_cULqBs9AqUj1PbR-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="70" />
+              <mxPoint x="150" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-3" value="5min cron to refresh dapp_protocol data into memory" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-7" target="hRTv_cULqBs9AqUj1PbR-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-7" target="hRTv_cULqBs9AqUj1PbR-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-7" value="&lt;blockquote&gt;from or to or input data have our user&#39;s wallet address&lt;/blockquote&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="270" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-8" target="hRTv_cULqBs9AqUj1PbR-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-8" value="&lt;blockquote&gt;check to address&amp;nbsp; with the dapp_protocol&lt;/blockquote&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="460" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-10" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-11" value="drop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385" y="310" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="280" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-14" value="fallback to default tx type" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-16" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-18" value="check dapp type and parse it" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-19" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-21" target="hRTv_cULqBs9AqUj1PbR-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-21" value="check whether the tx is intereact with uniswap&lt;br&gt;(through MethodID and to_address)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="100" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-22" target="hRTv_cULqBs9AqUj1PbR-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-22" value="judge the uniswap version and use different parse logic" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="670" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-24" target="hRTv_cULqBs9AqUj1PbR-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-24" value="output swapTo, tokenIn, tokenOut, amountIn, amountOut" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="665" y="400" width="150" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hRTv_cULqBs9AqUj1PbR-26" target="hRTv_cULqBs9AqUj1PbR-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-26" value="call to check the tokenIn and tokenOut symbol and decimal if they not in the memory cache" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="570" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hRTv_cULqBs9AqUj1PbR-28" value="generate final results with token_in_symbol and token_out_symbol" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="730" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-1" target="MosbDruKm1_zWOS2iW5J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-1" value="uniswap-v2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-2" target="MosbDruKm1_zWOS2iW5J-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-2" value="decode the input data with v2 ABIs to find out swapTo, tokenIn, tokenOut" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="925" y="240" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-4" target="MosbDruKm1_zWOS2iW5J-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-4" value="category by MethodID to distinguish the tx type was ETH2Token or Token2ETH or Token2Token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="410" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-6" target="MosbDruKm1_zWOS2iW5J-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-6" value="loop the logs and find out transfer, swap, deposit and withdraw logs" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="907.5" y="570" width="205" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-8" target="MosbDruKm1_zWOS2iW5J-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-8" value="loop the transfer logs to find out amountIn and amountOut data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="725" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-10" target="MosbDruKm1_zWOS2iW5J-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-10" value="final check with deposit and withdraw event logs to see if WETH transfer to ETH and correct the amount data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="880" width="180" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-12" value="output the result" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1061.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-15" target="MosbDruKm1_zWOS2iW5J-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-15" value="uniswap-v3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1232.5" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-17" target="MosbDruKm1_zWOS2iW5J-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-17" value="category by MethodID to find multicall and decode it with recursive" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1207.5" y="240" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-19" target="MosbDruKm1_zWOS2iW5J-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-19" value="decode the input data with v3 ABIs to find out swapTo, tokenIn, tokenOut" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1202.5" y="410" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-21" target="MosbDruKm1_zWOS2iW5J-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-21" value="loop the logs and find out transfer, swap, deposit and withdraw logs" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="570" width="205" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-23" target="MosbDruKm1_zWOS2iW5J-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-23" value="loop the transfer logs to find out amountIn and amountOut data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1202.5" y="725" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-25" target="MosbDruKm1_zWOS2iW5J-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-25" value="final check with deposit and withdraw event logs to see if WETH transfer to ETH and correct the amount data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1202.5" y="880" width="180" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-26" value="output the result" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1232.5" y="1061.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-28" target="MosbDruKm1_zWOS2iW5J-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-28" value="uniswap-x" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1802.5" y="104.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1862.5" y="404.3800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-30" value="decode the input data with X ABIs and decode the orders&#39; info with UniswapX-SDK to find out swapTo, tokenIn, tokenOut, amountIn and amountOut" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1761.25" y="234.38" width="202.5" height="105.62" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-39" value="output the result" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1802.5" y="409.3800000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-41" target="MosbDruKm1_zWOS2iW5J-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-41" value="uniswap-universal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1537.5" y="109.38" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-43" target="MosbDruKm1_zWOS2iW5J-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-43" value="decode the input data with universal ABIs and check the command whether swap-command to find out swapTo, tokenIn, tokenOut" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1512.5" y="239.38" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-45" target="MosbDruKm1_zWOS2iW5J-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-45" value="loop the logs and find out transfer, swap, deposit and withdraw logs" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1507.5" y="409.38" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-47" target="MosbDruKm1_zWOS2iW5J-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-47" value="loop the transfer logs to find out amountIn and amountOut data" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="569.38" width="205" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MosbDruKm1_zWOS2iW5J-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1597.5" y="879.3800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-49" value="check with native_value, deposit and withdraw event logs to see if the tx type is one of the ETH2Token or Token2ETH or Token2Token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1496.25" y="724.38" width="202.5" height="85.62" as="geometry" />
+        </mxCell>
+        <mxCell id="MosbDruKm1_zWOS2iW5J-52" value="output the result" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1537.5" y="888.1300000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
